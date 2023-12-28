@@ -20,7 +20,7 @@ const mobilePhoneSchema = new mongoose.Schema({
   color: String,
   description: String,
 });
-
+ 
 // Create a mobile phone model
 const MobilePhone = mongoose.model('MobilePhone', mobilePhoneSchema);
 
